@@ -7,7 +7,6 @@ while True:
     try:
         letters = [letter for letter in word]
         phonetic_code = [data_dict[letter] for letter in letters]
-
     except KeyError:
         print("Please enter valid letters")
         continue
